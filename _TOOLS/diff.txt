@@ -1,3 +1,0 @@
-G:/repos/rustedanvil/fml
-G:/repos/rustedanvil/forge.py
-G:/repos/rustedanvil/install.py
