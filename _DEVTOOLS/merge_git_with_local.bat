@@ -45,8 +45,8 @@ EXIT
 
 :: Check if the diff exists
 :diffcheck 
-IF EXIST "G:\repos\rustedanvil\_DEVTOOLS\diff.txt" (
-	rm "G:\repos\rustedanvil\_DEVTOOLS\diff.txt"
+IF EXIST "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt" (
+	rm "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 	GOTO :diff
 )
 :: If the command errored, it means not exist
@@ -62,17 +62,17 @@ IF %ERRORLEVEL% EQU 1 (
 :: Create the diff and prepare it
 :diff
 :: Unleash diff on the remote & local & output result for use
-diff -q %remote% %local% > "G:\repos\rustedanvil\_DEVTOOLS\diff.txt"
+diff -q %remote% %local% > "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 :: Get the goats, we're summoning satan
-sed --i "s/.*Files[[:space:]]//g";"s/.and[[:space:]]*.*//g";"s/.*[[:space:]]//g";"s/.*rustedanvil//g";"s/.*1.6.4//g";"s/.*\///" "G:\repos\rustedanvil\_DEVTOOLS\diff.txt"
+sed --i "s/.*Files[[:space:]]//g";"s/.and[[:space:]]*.*//g";"s/.*[[:space:]]//g";"s/.*rustedanvil//g";"s/.*1.6.4//g";"s/.*\///" "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 :: strip useless entries
-grep -Fvxf blacklist.txt diff.txt > diff_temp.txt
+grep -Fvxf "G:\repos\rustedanvil\_DEVTOOLS\tx\blacklist.txt" "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt""G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt" > "G:\repos\rustedanvil\_DEVTOOLS\tx\diff_temp.txt"
 :: Move the temp into the main file
-cp "G:\repos\rustedanvil\_DEVTOOLS\diff_temp.txt" "G:\repos\rustedanvil\_DEVTOOLS\diff.txt"
+cp "G:\repos\rustedanvil\_DEVTOOLS\tx\diff_temp.txt" "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 :: temp file is useless, drag it behind the shed
-rm "G:\repos\rustedanvil\_DEVTOOLS\diff_temp.txt"
+rm "G:\repos\rustedanvil\_DEVTOOLS\tx\diff_temp.txt"
 :: Ah, it's the agent of hell
-sed -i -e "s_.*_G:/repos/rustedanvil/&_" "G:\repos\rustedanvil\_DEVTOOLS\diff.txt"
+sed -i -e "s_.*_G:/repos/rustedanvil/&_" "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 :: Nuke satan
 DEL *.
 :: Begin the next phase
