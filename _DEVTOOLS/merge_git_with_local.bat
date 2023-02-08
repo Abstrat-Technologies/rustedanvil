@@ -41,7 +41,7 @@ IF exist "C:\Program Files (x86)\Gow\bin\cp.exe" (
 ECHO A fatal error occured with the following message: %errormsg%
 ECHO Press enter to exit the program.
 PAUSE > nul
-rem EXIT
+EXIT
 
 :: Check if the diff exists
 :diffcheck 
