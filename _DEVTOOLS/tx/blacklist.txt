@@ -6,3 +6,4 @@ _REDIST
 _TOOLS
 README.md
 .vscode
+_DEVTOOLS

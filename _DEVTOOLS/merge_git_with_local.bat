@@ -41,7 +41,7 @@ IF exist "C:\Program Files (x86)\Gow\bin\cp.exe" (
 ECHO A fatal error occured with the following message: %errormsg%
 ECHO Press enter to exit the program.
 PAUSE > nul
-EXIT
+rem EXIT
 
 :: Check if the diff exists
 :diffcheck 
@@ -66,7 +66,7 @@ diff -q %remote% %local% > "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 :: Get the goats, we're summoning satan
 sed --i "s/.*Files[[:space:]]//g";"s/.and[[:space:]]*.*//g";"s/.*[[:space:]]//g";"s/.*rustedanvil//g";"s/.*1.6.4//g";"s/.*\///" "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 :: strip useless entries
-grep -Fvxf "G:\repos\rustedanvil\_DEVTOOLS\tx\blacklist.txt" "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt""G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt" > "G:\repos\rustedanvil\_DEVTOOLS\tx\diff_temp.txt"
+grep -Fvxf tx\blacklist.txt tx\diff.txt > tx\diff_temp.txt
 :: Move the temp into the main file
 cp "G:\repos\rustedanvil\_DEVTOOLS\tx\diff_temp.txt" "G:\repos\rustedanvil\_DEVTOOLS\tx\diff.txt"
 :: temp file is useless, drag it behind the shed
@@ -81,6 +81,6 @@ GOTO :cp
 :: Make the copy
 :cp
 :: xargs for list, calls cp with the recursive command for dirs
-xargs -a diff.txt cp -r -t "G:\Minecraft Modding\1.6.4\forge_965_2"
+xargs -a tx/diff.txt cp -r -t %local%
 ECHO.
 EXIT
