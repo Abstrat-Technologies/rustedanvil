@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 ##############
 #
 # download_mc_assets.py
