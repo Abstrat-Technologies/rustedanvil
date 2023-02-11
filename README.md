@@ -45,11 +45,11 @@ TBC
 ### Milestone 3
 TBC
 ## Support
-Support will only be given in relation to the usage and development of RustedAnvil. We will not give modding support, instead visit the [MinecraftForum](https://www.minecraftforum.net/) or the relevant channels of the [RustedAnvil Discord](https://discord.gg/nZYmrurm)
+Support will only be given in relation to the usage and development of RustedAnvil. We will not give modding support, instead visit the [MinecraftForum](https://www.minecraftforum.net/) or the relevant channels of the [RustedAnvil Discord](https://discord.gg/h7qpjngd9A)
 ### Technical Support
 Technical support will be provided on the issues board here on GitHub. Please follow the Issue Reporting template so that we can get back to you as soon as possible
 ### General Support
-All other support will be provided on the [RustedAnvil Discord](https://discord.gg/nZYmrurm) & on the Abstrat Support website
+All other support will be provided on the [RustedAnvil Discord](https://discord.gg/h7qpjngd9A) & on the Abstrat Support website
 ## Acknowledgements
 [Thanks to the cURL team for the cURL utillity](https://curl.se/)
 ## Support the development!
