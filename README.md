@@ -17,7 +17,9 @@ This project is licensed uder the Abstrat Open Source Collaborations License v1.
 See LICENSE.md for more details.
 ## Contributors
 Arek Kwapis - Code, Documentation, Maintenance, Hosting
+
 Unloaded123456 - Documentation
+
 GloryBax - Art & Design
 ## TODO
 - [x] Update this readme to make it less word soup and more useful info
