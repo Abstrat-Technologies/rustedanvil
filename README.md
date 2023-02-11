@@ -15,7 +15,9 @@ This project is licensed uder the Abstrat Open Source Collaborations License v1.
 See LICENSE.md for more details.
 ## Contributors
 Arek Kwapis - Code, Documentation, Maintenance, Hosting
+
 Unloaded123456 - Documentation
+
 GloryBax - Art & Design
 ## Future Plans
 The end goal of this project is to sucesfully revive all broken legacy Forge versions, and to potentially future-proof more modern versions (like 1.7.x and 1.8.x)
