@@ -41,9 +41,9 @@ GloryBax - Art & Design
 - [ ] Suggested fixes
 - [ ] Cleanup
 ### Milestone 2
-TBC
+TBC - The content of Milestone 2 depends on the results of Milestone 1
 ### Milestone 3
-TBC
+TBC - The content of Milestone 3 depends on the results of Milestone 1
 ## Support
 Support will only be given in relation to the usage and development of RustedAnvil. We will not give modding support, instead visit the [MinecraftForum](https://www.minecraftforum.net/) or the relevant channels of the [RustedAnvil Discord](https://discord.gg/h7qpjngd9A)
 ### Technical Support
