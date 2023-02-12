@@ -29,11 +29,11 @@ GloryBax - Art & Design
 - [ ] some form of tracker (trello?)
 ## Milestones
 ### Milestone 1
-- [ ] Github setup
+- [x] Github setup
 - [ ] Documentation
 	- [ ] Missing files
 		- [ ] Forge
-		- [ ] MavenCentral
+		- [x] MavenCentral
 		- [ ] Mojang
 	- [ ] Broken code
 	- [ ] Missing code
