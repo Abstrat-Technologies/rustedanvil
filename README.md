@@ -30,15 +30,15 @@ GloryBax - Art & Design
 ## Milestones
 ### Milestone 1
 - [x] Github setup
-- [ ] Documentation
-	- [ ] Missing files
-		- [ ] Forge
+- [x] Documentation
+	- [x] Missing files
+		- [x] Forge
 		- [x] MavenCentral
-		- [ ] Mojang
-	- [ ] Broken code
-	- [ ] Missing code
-	- [ ] Missing items
-- [ ] Suggested fixes
+		- [x] Mojang
+	- [x] Broken code
+	- [x] Missing code
+	- [x] Missing items
+- [x] Suggested fixes
 - [ ] Cleanup
 ### Milestone 2
 TBC - The content of Milestone 2 depends on the results of Milestone 1
