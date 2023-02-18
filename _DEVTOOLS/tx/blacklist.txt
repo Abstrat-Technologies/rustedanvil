@@ -1,9 +1,0 @@
-.git
-.gitattributes
-.gitignore
-___original
-_REDIST
-_TOOLS
-README.md
-.vscode
-_DEVTOOLS
