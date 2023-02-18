@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arek-kwapis/rustedanvil/issues"
   },
-  "homepage": "https://github.com/arek-kwapis/rustedanvil#readme"
+  "homepage": "https://github.com/arek-kwapis/rustedanvil#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
